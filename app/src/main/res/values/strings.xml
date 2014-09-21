@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name">Dollar Store Change Calculator</string>
+
+//Price, Payment and Change text
+    <string name="itemPriceText">Item Price in Cents… (Less than 100 cents!)</string>
+    <string name="itemPaymentText">Item Payment in Cents… (Over Item Price)</string>
+    <string name="changeValText">Total Change</string>
+
+//Change Value
+    <string name="changeValAmount">Amount</string>
+
+//Logic Check checks if change is negative/positive
+    <string name="logCheckText">Logic Check</string>
+
+//Text for Coin Calculation initialization button
+    <string name="coinCalcButtonText">Calculate Coins</string>
+
+//Coin Text
+    <string name="quarterText">Quarters</string>
+    <string name="dimeText">Dimes</string>
+    <string name="nickelText">Nickels</string>
+    <string name="penniesText">Pennies</string>
+
+//Coin amounts//
+    <string name="qAmountNum">Amount</string>
+    <string name="dAmountNum">Amount</string>
+    <string name="nAmountNum">Amount</string>
+    <string name="pAmountNum">Amount</string>
+
+</resources>

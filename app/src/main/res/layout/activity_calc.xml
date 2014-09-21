@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DB9F76"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".calc"
+    android:background="@drawable/grad1"
+    android:padding="5dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/priceInput"
+            android:hint="@string/itemPriceText"
+            android:textColor="#ffa2f5ff"
+            android:inputType="number"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/paymentInput"
+            android:hint="@string/itemPaymentText"
+            android:textColor="#ffa2f5ff"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/logCheckText"
+        android:id="@+id/logCheckText"
+        android:layout_gravity="center_horizontal|right"
+        android:textColor="#FFF"
+        android:layout_marginBottom="-25dp"
+        android:layout_marginRight="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/changeValText"
+        android:id="@+id/textView"
+        android:textColor="#FFF"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/changeValAmount"
+        android:id="@+id/changeAmount"
+        android:layout_marginLeft="50dp"
+        android:padding="5dp"
+        android:background="#FFF"
+        android:layout_marginRight="180dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coinCalcButtonText"
+        android:id="@+id/calcButton"
+        android:layout_gravity="right"
+        android:layout_marginTop="-42dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/quarterText"
+        android:id="@+id/qtext"
+        android:textColor="#FFF"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/qAmountNum"
+        android:id="@+id/qAmount"
+        android:layout_marginLeft="50dp"
+        android:padding="5dp"
+        android:background="#FFF"
+        android:layout_marginRight="50dp"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dimeText"
+        android:id="@+id/dtext"
+        android:textColor="#FFF"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/dAmountNum"
+        android:id="@+id/dAmount"
+        android:layout_marginLeft="50dp"
+        android:padding="5dp"
+        android:background="#FFF"
+        android:layout_marginRight="50dp"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/nickelText"
+        android:id="@+id/ntext"
+        android:textColor="#FFF"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nAmountNum"
+        android:id="@+id/nAmount"
+        android:layout_marginLeft="50dp"
+        android:padding="5dp"
+        android:background="#FFF"
+        android:layout_marginRight="50dp"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/penniesText"
+        android:id="@+id/ptext"
+        android:textColor="#FFF"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pAmountNum"
+        android:id="@+id/pAmount"
+        android:layout_marginLeft="50dp"
+        android:padding="5dp"
+        android:background="#FFF"
+        android:layout_marginRight="50dp"
+        android:focusable="true" />
+</LinearLayout>
+</ScrollView>
